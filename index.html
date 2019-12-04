@@ -85,10 +85,53 @@
             text-decoration: none;
         }
 
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        }
+
+        li {
+        float: left;
+        }
+
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 14px;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+        background-color: #111;
+        }
+
+        .active {
+            color: white;
+            font-weight:bold;
+            background-color: #E94234;
+        }
+
     </style>
 </head>
 
 <body>
+    <ul>
+        <li class="active"><a href="search.asp">Search</a></li>
+        <li><a href="images.asp">Images</a></li>
+        <li><a href="maps.asp">Maps</a></li>
+        <li><a href="play.asp">Play</a></li>
+        <li><a href="youtube.asp">YouTube</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="gmail.asp">Gmail</a></li>
+        <li><a href="drive.asp">Drive</a></li>
+        <li><a href="more.asp">More</a></li>
+    </ul>
     <center>
         <br clear="all">
         <div>
